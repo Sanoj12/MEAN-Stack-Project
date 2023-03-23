@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-blue">
+    <div class="container">
+     
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" (click)="toggleNavbarCollapsing()" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" [class.collapse]="navbarCollapsed" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+            <h2 >Articles</h2>
+          <li class="nav-item active"> 
+            <a class="nav-link" routerLink="/" >Home</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" routerLink="/about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/article">Articles</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-us">Contact Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link1" href="#">Login</a>
+          </li>
+        </ul>
+        
+  
+      </div>
+    </div>
+  </nav>

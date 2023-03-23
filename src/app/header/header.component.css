@@ -1,0 +1,19 @@
+li{
+    text-decoration: none;
+    display:inline-flex;
+    margin-left: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+h2{
+    color: black;
+    display:inline-flex;
+    margin-left: 2rem;
+}
+
