@@ -75,6 +75,42 @@ h1 {font-size: 2.4rem;margin-bottom: 30px;}
   color: blue;
 }
 
+
+/* articles detail styling */
+
+
+.blog-main h1{
+   text-align: center;
+}
+.blog-main .posted-on p{
+  margin: 2rem;
+  
+}
+.blog-describ p{
+  margin: 3rem;
+  text-align: justify;
+  padding: 2rem;
+  
+ 
+
+}
+
+.blog-describ li{
+ list-style: circle;
+ margin: 2rem;
+ text-align: justify;
+ margin-left: 7rem;
+ 
+}
+
+.details-img img{width:100%; align-items: center;}
+
+
+
+
+
+
+
 /*CONTACT STYLING */
 
 /* Style inputs with type="text", select elements and textareas */
